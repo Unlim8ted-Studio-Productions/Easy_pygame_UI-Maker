@@ -8,26 +8,16 @@ from PIL import Image
 
 # Initialize Pygame
 pygame.init()
-if __name__ == "__main__":
-    from button import Button
-    from input_feild import InputField
-    from TextElement import TextElement
-    from checkbox import CheckBox
-    from color import ColorPickerInputField
-    from Image import ImageElement
-    from numeric_input import NumericInputField
-    from script import Script
-    from UIpanel import UIPanel
-else:
-    from uimanagement.button import Button
-    from uimanagement.input_feild import InputField
-    from uimanagement.TextElement import TextElement
-    from uimanagement.checkbox import CheckBox
-    from uimanagement.color import ColorPickerInputField
-    from uimanagement.Image import ImageElement
-    from uimanagement.numeric_input import NumericInputField
-    from uimanagement.script import Script
-    from uimanagement.UIpanel import UIPanel
+
+from button import Button
+from input_feild import InputField
+from TextElement import TextElement
+from checkbox import CheckBox
+from color import ColorPickerInputField
+from Image import ImageElement
+from numeric_input import NumericInputField
+from script import Script
+from UIpanel import UIPanel
 
 
 # Constants
