@@ -17,10 +17,9 @@ pip install pygame pyperclip pillow
 
 Run the application:
 
-    ```bash
-
-    python your_main_script.py
-    bash
+   ```bash
+   python your_main_script.py
+   ```
 
 Usage
 
