@@ -18,7 +18,7 @@ pip install pygame pyperclip pillow
 Run the application:
 
    ```bash
-   python your_main_script.py
+   python easy_ui_maker.py
    ```
 
 Usage
