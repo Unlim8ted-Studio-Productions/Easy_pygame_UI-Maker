@@ -8,16 +8,19 @@ from PIL import Image
 
 # Initialize Pygame
 pygame.init()
+if __name__ == "__main__":
+    from button import Button
+    from input_feild import InputField
+    from TextElement import TextElement
+    from checkbox import CheckBox
+    from color import ColorPickerInputField
+    from Image import ImageElement
+    from numeric_input import NumericInputField
+    from script import Script
+    from UIpanel import UIPanel
+    from slider import Slider
 
-from button import Button
-from input_feild import InputField
-from TextElement import TextElement
-from checkbox import CheckBox
-from color import ColorPickerInputField
-from Image import ImageElement
-from numeric_input import NumericInputField
-from script import Script
-from UIpanel import UIPanel
+    # from Nodes import
 
 
 # Constants
@@ -361,14 +364,31 @@ def create_new_checkbox():
     checkboxes.append(checkbox)
 
 
+def add_slider():
+    """
+    Add an image to the canvas
+    Args:
+        circle: The circle object to add the image to
+    Returns:
+        None: Does not return anything
+    - Opens a file dialog to select an image file
+    - Checks if a file was selected
+    - If file selected, adds the image to the canvas"""
+
+    # Create an slider object and add it to your list of elements
+    slider_element = Slider(200, 400, 100, 50, 0, 100, 10)
+    images.append(slider_element)
+
+
 create_button_on_sidebar("New Button", 10, create_new_button)
 create_button_on_sidebar("New Input", 60, create_new_input_field)
 create_button_on_sidebar("New Text", 110, create_new_text_element)
 create_button_on_sidebar("Checkbox", 170, create_new_checkbox)
 create_button_on_sidebar("Add Image", 230, add_image)
 create_button_on_sidebar("Add Circle Image", 290, add_image, [True])  # circle
-create_button_on_sidebar("Save UI", 350, export_ui_elements)
-create_delete_button(410)
+create_button_on_sidebar("Add Slider", 350, add_slider)  # circle
+create_button_on_sidebar("Save UI", 410, export_ui_elements)
+create_delete_button(470)
 
 
 class Node:
