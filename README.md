@@ -42,6 +42,7 @@ Features
 Screenshots
 
 Application Screenshot
+
 License
 
 This project is distributed under the a MODIFIED CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 3.0 LICENSE. Refer to the LICENSE file for specifics.
