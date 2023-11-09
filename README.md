@@ -33,7 +33,7 @@ Usage
 
 Features
 
-   Create buttons, input fields, text elements, checkboxes, images, and cropped images.
+   Create buttons, input fields, text elements, checkboxes, images, cropped images, and sliders.
    Customize text properties, size, width, height, font, style, and color.
    Export UI elements to Python code.
    Responsive UI design.
