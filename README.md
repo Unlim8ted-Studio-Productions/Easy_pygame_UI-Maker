@@ -44,4 +44,6 @@ Screenshots
 Application Screenshot
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is distributed under the a MODIFIED CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 3.0 LICENSE. Refer to the LICENSE file for specifics.
+
+Embark on a thrilling adventure in the realm of our pixelated sandbox game! Should you encounter any problems or have ideas for improvement, kindly share your feedback with us. Enjoy your gaming journey!
