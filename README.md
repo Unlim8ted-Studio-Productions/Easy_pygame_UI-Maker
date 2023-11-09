@@ -23,7 +23,7 @@ Run the application:
    python easy_ui_maker.py
    ```
 
-Usage
+##Usage
 
    Click and drag to move UI elements.
    Right-click to resize elements.
@@ -31,7 +31,7 @@ Usage
    Edit properties in the UI panel.
    Click to select and element.
 
-Features
+##Features
 
    Create buttons, input fields, text elements, checkboxes, images, cropped images, and sliders.
    Customize text properties, size, width, height, font, style, and color.
@@ -39,11 +39,11 @@ Features
    Responsive UI design.
    Future node based scripting
 
-Screenshots
+##Screenshots
 
 Application Screenshot
 
-License
+##License
 
 This project is distributed under the a MODIFIED CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL 3.0 LICENSE. Refer to the LICENSE file for specifics.
 
