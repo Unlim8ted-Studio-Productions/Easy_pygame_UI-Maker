@@ -12,10 +12,6 @@ Pygame UI Designer is a Python application for creating and customizing UI eleme
    git clone https://github.com/GusInfiniteLinesOfCode/Easy_pygame_UI-Maker.git
 
     Install the required dependencies:
-    pillow
-    pygame
-    pyperclip
-
     ```
 
 pip install pygame pyperclip pillow
