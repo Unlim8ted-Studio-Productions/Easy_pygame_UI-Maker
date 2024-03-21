@@ -40,7 +40,7 @@ pygame_icon = pygame.image.load(
     r"recources\program recources\Screenshot 2023-09-21 181742.png"
 )
 pygame.display.set_icon(pygame_icon)  # pygame.display.toggle_fullscreen()
-pygame.display.set_caption("Square Pixel")
+pygame.display.set_caption("Easy Pygame UI Maker")
 pygame.mouse.set_cursor(pygame.SYSTEM_CURSOR_CROSSHAIR)
 
 buttons = []
